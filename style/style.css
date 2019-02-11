@@ -1,0 +1,145 @@
+
+/*** -Navigation bar- **************/
+
+.my-navbar div a{
+  font-family: garamond;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.my-dpc img{
+  width: 100%;
+  min-height: 400px;
+  max-height: 800px;
+}
+
+.my-dpc div a{
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.my-login{
+  text-decoration: none;
+}
+
+.my-login:hover{
+  text-decoration: underline;
+}
+
+/*** -login modal- ********************/
+
+.my-modal{
+  opacity: 0.95;
+}
+
+.my-modal-form{
+  width:400px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.my-modal-form input{
+  width: 100%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.my-modal-form button{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+/*** -logout modal- ********************/
+
+
+
+/*** -Index news- **********************/
+
+.my-news div div img{
+  width: 100%;
+  height: 380px;
+}
+
+.my-news div div div div a{
+  text-decoration: underline;
+}
+
+.my-news div div div div p{
+  text-align: justify;
+}
+
+.my-news div div div div{
+  height: 200px;
+}
+
+/*** -Index band- ***********************/
+
+.my-band div div{
+  height:220px;
+}
+
+.my-bio{
+  height: 440px;
+}
+
+.my-bio p{
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.my-bio a{
+  font-family: arial;
+  font-weight: bold;
+}
+
+/*** -Index tour- **********************/
+
+.my-tour div div table tr th{
+  padding: 32px;
+  text-align: left;
+}
+
+.my-tour div div img{
+  height: 94%;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.my-tour div{
+  height: 545px;
+}
+
+/*** -Registration- ***************/
+
+.my-form{
+  width:400px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.my-form input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.my-form button{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+/*** -Account- **********************/
