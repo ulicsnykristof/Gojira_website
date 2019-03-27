@@ -1,0 +1,14 @@
+create database gojira_db;
+
+use gojira_db;
+
+create table users(
+    user_id int(11) primary key not null auto_increment,
+    user_name varchar(255) not null,
+    user_email varchar(255) not null,
+    user_uid varchar(255) not null,
+    user_pwd varchar(255) not null
+);
+
+insert into users (user_name, user_email, user_uid, user_pwd)
+values ('László Ferenc', 'ferencz12@gmail.com', 'ferencz', 'user');
